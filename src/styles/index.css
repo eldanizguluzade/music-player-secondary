@@ -1,0 +1,35 @@
+#playlist{
+ text-align: center;
+}
+#playlist > ul{
+    list-style: none;
+}
+
+.item-btn{
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    width: 300px;
+}
+.item-btn:hover {
+    background-color: rgba(0, 0, 0, 0.118);
+    cursor: pointer;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  padding-right: 12px;
+  width: auto;
+  height: 35px;
+
+}
+
+.image img {
+    height: 100%;
+}
