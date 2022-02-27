@@ -3,5 +3,6 @@ export interface IItem {
   title: string;
   duration: string;
   image: string;
-  path:string;
+  path: string;
+  isDuration?: boolean;
 }

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "title": "LOREM iMPLUS ONE",
+    "image": "https://static.qobuz.com/images/covers/wb/qd/pc8nvnkvpqdwb_600.jpg",
+    "duration": "8:31",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+  },
+  {
+    "id": 1,
+    "title": "Tan House TWO",
+    "image": "https://c.saavncdn.com/959/50x50-English-2018-20180323143031-500x500.jpg",
+    "duration": "5:21",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+  },
+  {
+    "id": 2,
+    "title": "WALKO MANO",
+    "image": "https://m.media-amazon.com/images/I/71ekKqDnUCL._SS500_.jpg",
+    "duration": "5:41",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  },
+  {
+    "id": 3,
+    "title": "FAlAHOMI",
+    "image": "https://www.schaer-art.ch/incms_files/filebrowser/cache/151116_50x50_Phoenix_WA_w_ef482bb94150e2057c05b3f61de08a13.jpg.pagespeed.ce.wiPDNN0S_K.jpg",
+    "duration": "2:23",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  },
+  {
+    "id": 4,
+    "title": "Mahettin OO mi",
+    "image": "https://art.pixilart.com/thumb/e1b79ce3d3e6a9e.png",
+    "duration": "5:21",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  },
+  {
+    "id": 5,
+    "title": "SUMARKA Lapo",
+    "image": "https://faroutmagazine.co.uk/static/uploads/2021/12/Weezer-Christmas.jpg",
+    "duration": "7:01",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  },
+  {
+    "id": 6,
+    "title": "Telsez Leddy",
+    "image": "https://i.pinimg.com/736x/79/be/0d/79be0d8ecf1e1d6eb5554b6f4b6c067d.jpg",
+    "duration": "2:51",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  },
+  {
+    "id": 7,
+    "title": "Carnolani Vapoz",
+    "image": "https://i1.sndcdn.com/artworks-000158741155-rmc60p-t500x500.jpg",
+    "duration": "7:21",
+    "path": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+  }
+]

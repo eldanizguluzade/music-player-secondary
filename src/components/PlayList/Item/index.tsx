@@ -8,7 +8,7 @@ function Item(props: IItem) {
         <img src={props.image} alt={props.title} />
       </div>
       <div className="title">{props.title}</div>
-      <Duration time={props.duration} />
+      {props?.isDuration && <Duration time={props.duration} />}
     </div>
   );
 }

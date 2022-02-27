@@ -3,40 +3,25 @@ import "./styles/index.css";
 import PlayList from "./components/PlayList";
 import Player from "./components/Player";
 import { IItem } from "./models";
+import axios from "axios";
 
 function App() {
-  const [data, setData] = useState<any>([
-    {
-      id: 0,
-      title: "Elovset.D - Diamonds",
-      image:
-        "https://damassets.autodesk.net/content/dam/autodesk/www/homepage/fy22/me-industry-solutions-thumb-720x480.jpg",
-      duration: "3:11",
-      path: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    },
-    {
-      id: 1,
-      title: "Elovset.D - Diamonds",
-      image:
-        "https://damassets.autodesk.net/content/dam/autodesk/www/homepage/fy22/me-industry-solutions-thumb-720x480.jpg",
-      duration: "3:11",
-      path: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    },
-    {
-      id:2,
-      title: "Elovset.D - Diamonds",
-      image:
-        "https://damassets.autodesk.net/content/dam/autodesk/www/homepage/fy22/me-industry-solutions-thumb-720x480.jpg",
-      duration: "3:11",
-      path: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    },
-  ]);
+  const [data, setData] = useState<any>();
   const [item, setItem] = useState<IItem>();
+
+  const fetchPosts = async () => {
+    const res = await axios.get("db.json");
+    setData(res?.data);
+  };
+
+  useEffect(() => {
+    fetchPosts();
+  }, []);
 
   return (
     <div className="App">
       <PlayList data={data} choosed={(item: IItem) => setItem(item)} />
-      <Player item={item} />
+      {item && <Player item={item} />}
     </div>
   );
 }
