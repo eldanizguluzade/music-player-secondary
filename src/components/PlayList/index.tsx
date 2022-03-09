@@ -1,9 +1,10 @@
 import Item from "./Item";
 import { IItem } from "../../models";
+import Visible from "./Visible";
 
 type TPlayList = {
   data: any;
-  choosed: (item: IItem) => void;
+  choosed: (id: any) => void;
   //Types of data
 };
 
@@ -18,7 +19,7 @@ const PlayList: React.FC<TPlayList> = (props) => {
               <li key={item.id}>
                 <button
                   className="item-btn"
-                  onClick={() => props.choosed(item)}
+                  onClick={() => props.choosed(item.id)}
                 >
                   <Item
                     title={item.title}
@@ -28,6 +29,7 @@ const PlayList: React.FC<TPlayList> = (props) => {
                     isDuration={true}
                   />
                 </button>
+                <Visible />
               </li>
             );
           })}
